@@ -48,10 +48,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Ellen          | Jasmijn            | Amy          | Beyza            |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Wanneer pas je welke heading toe?   | Problemen met flexbox            | en ik dit    | en dan ik dat    |
+| Hoe kader ik een afbeelding? | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
@@ -65,8 +65,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 <img src="images/week1breakdown.png" width="375px" alt="Breakdownschets homepage Apple">
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
-
 **Mijn startniveau:** blauwe piste. Tech onderdelen blijf ik erg moeilijk vinden, echter ben ik wel heel enthousiast wanneer het mij lukt. Ik weet van mijzelf dat ik hier meer tijd aan moet besteden en op tijd hulp moet vragen.
 
 **Je focus:** Responsive is iets wat ik HEEL ERG GRAAG onder de knie wil krijgen.
