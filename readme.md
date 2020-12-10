@@ -56,8 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Meeting was nuttig! Samen met mijn groepje via Google docs een document opgestelt met alle vragen die wij hadden. Ik liep vast met de afbeeldingen op mijn website, advies gekregen om mij te verdiepen in 'background-size: cover'.
 
+Verder advies gekregen over het gebruik van pixels en em. En toelichting over vw-min en vw-max.
+
+Ik had zelf nog moeite met headings niveau's, ik wist niet op welk moment ik welke moet toepassen. Hier ook nog uitleg over verkregen en notities gemaakt.
 
 
 ## Breakdownschets (week 1)
