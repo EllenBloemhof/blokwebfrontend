@@ -30,8 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+Aangegeven dat ik achter loop, ik moet aankomende week een flinke inhaalslag gaan maken anders haal ik de beoordeling niet - aangegeven dat ik al een planning voor mijzelf had gemaakt dus dit moet goedkomen. Liep vast met een probleem met de afbeelding, kreeg het advies dat bijsnijden van de afbeelding ook geen probleem is. Verder teveel gebruik gemaakt van div-jes deze vervangen met sections/articles, daar ook verdere uitleg over gevraagd.
 
 
 ## Voortgang 1 (week 3)

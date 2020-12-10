@@ -96,23 +96,22 @@ header {
 
 /* Blok 1: Macbook Air */
 .MacbookAir {
-
+display:flex;
+    justify-content:center;
 }
 
 .MacbookAir h2 {
     position: absolute;
     color: #F5F5F7;
+    text-align: center;
     top: 7em;
-    left: 10em;
-
 }
 
-.MacbookAir h3 {
+.MacbookAir p {
     position: absolute;
     color: #F5F5F7;
-    top: 11em;
-    left: 12em;
-
+    text-align: center;
+    top: 13.2em;
 }
 
 .MacbookAir ul {
@@ -120,7 +119,6 @@ header {
     display: flex;
     align-items: center;
     top: 15.5em;
-    left: 11em;
 }
 
 .MacbookAir li {
@@ -133,9 +131,6 @@ header {
 }
 
 .MacbookAir img {
-    background-size:cover;
-    background-size: contain;
-
     width: 100%;
 }
 /* Blok 1: Macbook Air eindigt hier */
@@ -143,15 +138,63 @@ header {
 /*Blok 2: Macbook Pro */
 .MacbookPro {
     position: relative;
-    top: 0.5em;
+    width: 100%;
+    top: 0.2em;
+    display:flex;
+    justify-content:center;
+}
+
+.MacbookProtitel {
+    position: absolute;
+    color: #F5F5F7;
+    top: 3em;
+}
+
+.MacbookPro h3 {
+    position: absolute;
+    color: #F5F5F7;
+    top: 2.5em;
+    font-size: 2em;
+}
+
+.MacbookProtekst {
+    position: absolute;
+    color: #F5F5F7;
+    top: 8.5em;
+}
+
+.MacbookPro ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 11.5em;
+}
+
+.MacbookPro li {
+    margin-left: 2em;
+}
+
+.MacbookPro a {
+    text-decoration: none;
+    color: #2997FF;
 }
 
 .MacbookPro img {
-    background-size: cover;
-    background-size: contain;
-    width: 100em;
+    width: 100%;
 }
 
+/* Blok 3: kerstactie */
+.holiday {
+    position: relative;
+    display:flex;
+    justify-content:center;
+}
+
+.holidaylogo {
+    position: absolute;
+    width: 5em;
+    top: 1em;
+}
 
 /* Media */
 
