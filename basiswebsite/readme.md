@@ -50,14 +50,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | Ellen          | Jasmijn            | Amy          | Beyza            |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Wanneer pas je welke heading toe?   | Problemen met flexbox            | Hoe maak je een hamburger menu?    | Hoe pas je text-shadow toe? |
+| Hoe kader ik een afbeelding? | Problemen met video | Hoe maak je een goede slider? | transform: skewY alleen op de tekst krijgen |
+| Wat is beter? Div’s/class/ID?           | Mag de NAV later worden toegepast? | Responsive          | ...              |
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Meeting was nuttig! Samen met mijn groepje via Google docs een document opgestelt met alle vragen die wij hadden. Ik liep vast met de afbeeldingen op mijn website, advies gekregen om mij te verdiepen in 'background-size: cover'.
 
+Verder advies gekregen over het gebruik van pixels en em. En toelichting over vw-min en vw-max.
+
+Ik had zelf nog moeite met headings niveau's, ik wist niet op welk moment ik welke moet toepassen. Hier ook nog uitleg over verkregen en notities gemaakt.
 
 
 ## Breakdownschets (week 1)

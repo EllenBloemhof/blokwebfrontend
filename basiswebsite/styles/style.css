@@ -133,9 +133,10 @@ header {
 }
 
 .MacbookAir img {
-    display: block;
+    background-size:cover;
+    background-size: contain;
+
     width: 100%;
-    height: auto;
 }
 /* Blok 1: Macbook Air eindigt hier */
 
@@ -146,8 +147,9 @@ header {
 }
 
 .MacbookPro img {
-    position: absolute;
-    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    width: 100em;
 }
 
 
