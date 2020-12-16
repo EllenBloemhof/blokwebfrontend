@@ -1,9 +1,10 @@
 /* CSS Document */
-
 @font-face {
-    font-family: 'San Francisco Webfont';
-    src: url('san_francisco-webfont.woff2') format('woff2'),
-        url('san_francisco-webfont.woff') format('woff');
+    font-family: 'SFProText-Light';
+    src: url('../fonts/SFProText-Light.woff') format('woff'),
+        url('../fonts/SFProText-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 *,
@@ -16,8 +17,9 @@
 
 
 html {
+    font-family: "SFProText-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 0.6em;
-    font-family: sans-serif;
+    height: auto;
 }
 
 a {
@@ -33,7 +35,6 @@ a {
 }
 
 header {
-    position: fixed;
     top: 0;
     z-index: 1400;
     width: 100%;
@@ -96,8 +97,8 @@ header {
 
 /* Blok 1: Macbook Air */
 .MacbookAir {
-display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
 .MacbookAir h2 {
@@ -121,8 +122,8 @@ display:flex;
     top: 15.5em;
 }
 
-.MacbookAir li {
-    margin-left: 2em;
+.MacbookAir li:nth-of-type(2) {
+    margin-left: 0.5em;
 }
 
 .MacbookAir a {
@@ -133,6 +134,7 @@ display:flex;
 .MacbookAir img {
     width: 100%;
 }
+
 /* Blok 1: Macbook Air eindigt hier */
 
 /*Blok 2: Macbook Pro */
@@ -140,8 +142,8 @@ display:flex;
     position: relative;
     width: 100%;
     top: 0.2em;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
 .MacbookProtitel {
@@ -186,14 +188,79 @@ display:flex;
 /* Blok 3: kerstactie */
 .holiday {
     position: relative;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
 .holidaylogo {
     position: absolute;
     width: 5em;
-    top: 1em;
+    top: 4em;
+}
+
+.holiday h3 {
+    position: absolute;
+    font-size: 2.3em;
+    top: 5em;
+}
+
+.holiday a {
+    position: absolute;
+    top: 9.5em;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #2997FF;
+}
+
+.kerstproduct {
+    position: relative;
+    width: 30em;
+    top: 20em;
+}
+
+/* Blok 4 */
+.iphone12 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 23em;
+}
+
+.iphone12 h3 {
+    position: absolute;
+    top: 2.5em;
+    color: #F5F5F7;
+    z-index: 1;
+    font-size: 2.3em;
+}
+
+.iphone12 p {
+    position: absolute;
+    top: 8em;
+    font-size: 1.2em;
+    color: #F5F5F7;
+    z-index: 1;
+}
+
+.iphone12 ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 13em;
+    z-index: 1;
+}
+
+.iphone12 li {
+    margin-left: 2em;
+}
+
+.iphone12 a {
+    text-decoration: none;
+    color: #2997FF;
+}
+.iphone12 img {
+    position: absolute;
+    width: 100vw;
 }
 
 /* Media */
