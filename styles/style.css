@@ -115,6 +115,7 @@ header {
     top: 13.2em;
 }
 
+/*Meer informatie en koop linkjes */
 .MacbookAir ul {
     position: absolute;
     display: flex;
@@ -165,6 +166,7 @@ header {
     top: 8.5em;
 }
 
+/*Meer informatie en koop linkjes */
 .MacbookPro ul {
     position: absolute;
     display: flex;
@@ -172,8 +174,8 @@ header {
     top: 11.5em;
 }
 
-.MacbookPro li {
-    margin-left: 2em;
+.MacbookPro li:nth-of-type(2) {
+    margin-left: 0.5em;
 }
 
 .MacbookPro a {
@@ -242,6 +244,7 @@ header {
     z-index: 1;
 }
 
+/*Meer informatie en koop linkjes */
 .iphone12 ul {
     position: absolute;
     display: flex;
@@ -250,8 +253,8 @@ header {
     z-index: 1;
 }
 
-.iphone12 li {
-    margin-left: 2em;
+.iphone12 li:nth-of-type(2) {
+    margin-left: 0.5em;
 }
 
 .iphone12 a {
@@ -259,10 +262,141 @@ header {
     color: #2997FF;
 }
 .iphone12 img {
-    position: absolute;
+    position: relative;
     width: 100vw;
 }
 
+/* Blok 5 */
+.watch {
+    position: relative;
+    top: 23.8em;
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbfd;
+    height: 38em;
+}
+
+.watchlogo {
+    position: absolute;
+    width: 10em;
+    top: 2em;
+}
+
+.watch p {
+    position: absolute;
+    top: 7em;
+}
+
+/*Meer informatie en koop linkjes */
+.watch ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 9.5em;
+    z-index: 1;
+}
+
+.watch li:nth-of-type(2) {
+    margin-left: 0.5em;
+}
+
+.watch a {
+    color: #2997FF;
+    text-decoration: none;
+}
+
+/* Afbeelding watches in een cirkel */
+.cirkelwatch {
+    position: absolute;
+    top: 12em;
+    width: 25em;
+}
+
+/* Blok 6 */
+.appleone {
+   position: relative;
+    display: flex;
+    justify-content: center;
+    top: 24.8em;
+    background-color: #fbfbfd;
+    height: 38em;
+}
+
+/* Apple One Logo*/
+.onelogo {
+    position: absolute;
+    width: 10em;
+    top: 2em;
+}
+
+.appleone p {
+    position: absolute;
+    top: 7em;
+}
+
+.appleone p:nth-of-type(2) {
+    top: 8.2em;
+}
+
+.appleone ul {
+    position: absolute;
+    top: 11em;
+    z-index: 1;
+}
+
+.appleone a {
+    text-decoration: none;
+    color: #2997FF;
+}
+
+/* Afbeelding Apple diensten */
+.applediensten {
+    position: absolute;
+    top: 16em;
+    width: 50em;
+}
+
+/* Blok 7 */
+.appletv {
+   position: relative;
+    display: flex;
+    justify-content: center;
+    top: 34em;
+    height: 60em;
+}
+
+/* Thumbnails Apple TV */
+.appletvshows {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+/* Logo Apple TV */
+.logoappletv {
+    position: absolute;
+    z-index: 1;
+    width: 10em;
+    top: 27em;
+}
+
+.appletv p {
+    position: absolute;
+    top: 33em;
+    color: #F5F5F7;
+}
+
+/*Meer informatie en probeer gratis uit linkjes */
+appletv ul {
+    position: relative;
+    z-index: 2;
+    top: 40em;
+}
+
+.appletv a {
+    text-decoration: none;
+    color: #2997FF;
+}
 /* Media */
 
 @media screen and (max-width: 767px) {

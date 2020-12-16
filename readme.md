@@ -24,7 +24,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Bespreken:
+- text-decoration werkt niet;
+- footer: is dat hetzelfde als een hamburger menu?
+- Blok 6: Apple one > P's moeten onder elkaar, is de manier van stylen goed toegepast?
 
 
 
