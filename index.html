@@ -9,153 +9,86 @@
     <title>Apple</title>
 
     <link href="styles/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href='images/iconsite.svg' type="image/png">
+
 </head>
 
 <body>
 
-    <!-- Bronvermelding hamburger menu: https://www.youtube.com/watch?v=DEpF1nNz1l0&t=1304s&ab_channel=JulioCodes -->
-
     <header>
-        <section class="container">
-            <nav class="nav">
-                <ul class="nav-list nav-list-mobile">
-                    <li class="nav-item">
-                        <div class="mobile-menu">
-                            <span class="line line-top"></span>
-                            <span class="line line-bottom"></span>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link nav-link-apple"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-link-bag"></a>
-                    </li>
-                </ul>
-                <!-- nav-list nav-list-mobile eindigt hier -->
-                <ul class="nav-list nav-list-larger">
-                    <li class="nav-item nav-item-hidden">
-                        <a href="index.html" class="nav-link nav-link-apple"><img width="50" src="images/globalnav.svg" alt="Logo Apple"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Mac</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">iPad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">iPhone</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Watch</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">TV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-link-search"><img src="images/search.svg" alt="Pictogram zoeken"></a>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link nav-link-bag"><img src="images/bag.svg" alt="Pictogram winkelwagen"></a>
-                    </li>
-                </ul>
-                <!-- nav-list nav-list-lager eindigt hier -->
-            </nav>
-        </section>
+        <a href="#">
+            <img src="images/globalnav.svg" alt="Logo Apple">
+        </a>
+        <nav>
+
+            <button aria-label="open het menu">
+                <span></span><span></span>
+            </button>
+
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#"><img src="images/zoek.svg"></a></li>
+            </ul>
+        </nav>
+
+        <a href="#"><img src="images/globalnav_bag.svg"></a>
     </header>
 
     <main>
+        <!-- Macbook Air -->
         <section class="MacbookAir">
-            <h2>Macbook Air</h2>
+            <h2>MacBook Air</h2>
             <p>Air. Blaast je omver.</p>
-            <ul>
+            <ul class="CTA">
                 <li><a href="#">Meer informatie ></a></li>
                 <li><a href="#">Koop ></a></li>
             </ul>
-            <img src="images/MacbookAir.jpg" alt="Macbook Air">
+
+            <img src="images/MacbookAir.jpg" alt="MacBook Air">
         </section>
 
+        <!-- Macbook Pro 13 inch -->
         <section class="MacbookPro">
-            <p class="MacbookProtitel">13-inch model</p>
-
+            <p class="MacbookTitel">13-inch model</p>
             <h3>MacBook Pro</h3>
-
-            <p class="MacbookProtekst">In alles een Pro.</p>
-
-            <ul>
+            <p>In alles een Pro.</p>
+            <ul class="CTA">
                 <li><a href="#">Meer informatie ></a></li>
                 <li><a href="#">Koop ></a></li>
             </ul>
 
-            <img src="images/macbookpro2.jpg" alt="Macbook Pro">
+            <img src="images/macbookpro2.jpg" alt="MacBook Pro">
         </section>
 
-        <section class="holiday">
-            <img src="images/logokerst.png" class="holidaylogo" alt="Aangepast Apple logo met strik">
+        <!-- Geef schitterende cadeaus -->
+        <section class="HolidaySection">
+            <img src="images/logokerst.png" class="LogoKerst" alt="Apple Logo feestdagen editie">
 
             <h3>Geef schitterende cadeaus.</h3>
+            <a>Shop cadeaus ></a>
 
-            <a href="#">Shop cadeaus ></a>
+            <div class="HolidayImg">
+                <img src="images/holiday1.png"  class="HolImg1 rotatie" alt="iPhone's en AirPods afgebeeld in een cirkel">
 
-            <img class="kerstproduct" src="images/holiday1.png" alt="iPhone's en Airpods">
+                <img src="images/rotatiehoeskopie.png" class="rotatieWeg rotatie" alt="Telefoonhoesjes afgebeeld als in een cirkel">
+
+                <img src="images/rotatiewatch.png" class="rotatieWeg rotatie"  alt="Apple Watches afgebeeld in een cirkel">
+            </div>
         </section>
-
-        <section class="iphone12">
-            <h3>iPhone 12 Pro</h3>
-
-            <p>Een grote sprong voorwaarts.</p>
-
-            <ul>
-                <li><a href="#">Meer informatie ></a></li>
-                <li><a href="#">Koop ></a></li>
-            </ul>
-
-            <img src="images/iphone12.png" alt="iPhone 12">
-        </section>
-
-        <section class="watch">
-            <img src="images/logowatch.png" class="watchlogo" alt="Logo Apple Watch SE">
-            <p>Sterke features. Mooie prijs.</p>
-            <ul>
-                <li><a href="#">Meer informatie ></a></li>
-                <li><a href="#">Koop ></a></li>
-            </ul>
-
-            <img src="images/watches.jpg" class="cirkelwatch" alt="Watches vormen een cirkel">
-        </section>
-
-        <section class="appleone">
-            <img src="images/logoappleone.png" class="onelogo" alt="Logo Apple one">
-
-            <p>Bundel vier Apple services.</p>
-            <p>En geniet meer voor minder.</p>
-
-            <ul>
-                <li><a href="#">Meer informatie ></a></li>
-                <li><a href="#">Probeer het gratis uit ></a></li>
-            </ul>
-
-            <img src="images/dienstenappleone.jpg" class="applediensten" alt="Vier logo's: Apple music, Apple tv, Arcade en iCloud">
-        </section>
-
-        <section class="appletv">
-            <img src="images/appletv.png" class="logoappletv" alt="Logo Apple TV">
-
-            <p>Koop een Apple device en krijg een jaar lang gratis Apple TV+.</p>
-
-            <ul>
-                <li><a href="#">Meer informatie ></a></li>
-                <li><a href="#">Probeer het gratis uit ></a></li>
-            </ul>
-
-            <img src="images/tvshows.jpg" class="appletvshows" alt="Thumbnails shows Apple TV">
-        </section>
-
     </main>
+
+    <footer>
+
+    </footer>
+
     <script src="scripts/script.js"></script>
+
 </body></html>

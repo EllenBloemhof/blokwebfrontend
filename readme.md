@@ -1,14 +1,19 @@
 # Procesverslag Frontend Development
 Auteur: Ellen Bloemhof
-
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
+500823683
+Klas 202
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Mogelijkheid voor het toevoegen van een favicon, w3schools:
+https://www.w3schools.com/tags/att_link_sizes.asp
+
+2. Geanimeerd hamburgermenu, Sanne 't Hooft:
+https://codepen.io/shooft/pen/jOMOroZ
+
+3. Responsive navigatie, Sanne 't Hooft:
+https://codepen.io/shooft/pen/BaKGKwm
+
+4.
 
 
 
