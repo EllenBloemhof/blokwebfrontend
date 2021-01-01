@@ -154,10 +154,10 @@ nav.toonMenu ul {
     transition: .5s;
 }
 
-/* Eerste blok */
+/* Onderdeel Macbook Air */
 .MacbookAir {
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 0.6em;
     text-align: center;
     color: #F5F5F7;
     background-color: black;
@@ -169,15 +169,15 @@ nav.toonMenu ul {
 }
 
 .MacbookAir p {
-    margin-top: 1em;
+    margin: 0.6em;
 }
 
 .MacbookAir img {
     margin: auto;
-    width: 100vw;
+    width: 20em;
 }
 
-/* CTA is van toepassing op de links in de blokjes naast elkaar */
+/* CTA is van toepassing op iedere link in de blokken */
 .CTA {
     display: flex;
     justify-content: center;
@@ -194,10 +194,10 @@ nav.toonMenu ul {
     color: #0066CC;
 }
 
-/* Tweede blok */
+/* Onderdeel Macbook Pro */
 .MacbookPro {
     display: grid;
-    grid-template-rows: 3fr 2fr 1fr;
+    grid-gap: 0.6em;
     text-align: center;
     color: #F5F5F7;
     background-color: black;
@@ -215,12 +215,12 @@ nav.toonMenu ul {
 
 .MacbookPro img {
     margin: auto;
-    width: 100vw;
+    width: 20em;
     overflow: hidden;
     margin-top: 0.6em;
 }
 
-/* Holiday Sectie */
+/* Onderdeel cadeau's */
 .HolidaySection {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -228,6 +228,7 @@ nav.toonMenu ul {
     grid-gap: 1em;
     height: 16em;
     text-align: center;
+    background-color: #fbfbfd;
 }
 
 .LogoKerst {
@@ -236,7 +237,7 @@ nav.toonMenu ul {
     margin: auto;
 }
 
-.HolidaySection h3 {
+.HolidaySection h4 {
     font-size: 2em;
 }
 
@@ -248,10 +249,11 @@ nav.toonMenu ul {
 
 .HolidayImg {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
     width: 100vw;
     overflow: hidden;
     height: 20em;
+    background-color: #fbfbfd;
 }
 
 .HolidayImg img {
@@ -259,15 +261,155 @@ nav.toonMenu ul {
     margin: auto;
 }
 
+/* Display grid toegepast op de onderste zes blokken: Mac Mini, iPhone 12 Pro, Watch, Apple TV, One en Arcade. */
+.zesBlokken {
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 15em;
+    display: grid;
+    grid-gap: 0.6em;
+    color: #F5F5F7;
+    text-align: center;
+
+    height: 40em;
+}
+
+/* Onderdeel Mac Mini */
+.MacMini {
+    display: grid;
+    grid-gap: 0.6em;
+    background-color: black;
+}
+
+.MacMini img {
+    margin: auto;
+    width: 27em;
+}
+
+.MacMini h5 {
+    font-size: 2em;
+}
+
+.MacMini ul {
+    margin-bottom: 1em;
+}
+
+/* Onderdeel iPhone12 Pro */
+.iPhone12 {
+    display: grid;
+    grid-gap: 0.6em;
+    background-color: black;
+}
+
+.iPhone12 h6 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.iPhone12 img {
+    margin: auto;
+    width: 15em;
+}
+
+/* CSS voor de Watch SE en Apple One logo */
+.Logos {
+    width: 10em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+/* CSS voor afbeeldingen van het product/dienst Watch SE en Apple One */
+.AfbeeldingProduct {
+    width: 20em;
+    margin: auto;
+}
+
+/* Onderdeel Apple Watch */
+.Watch {
+    display: grid;
+    grid-gap: 0.6em;
+    background-color: #fbfbfd;
+    color: black;
+}
+
+.Watch ul {
+   margin-bottom: 0.6em;
+}
+
+/* Onderdeel Apple One */
+.One {
+    display: grid;
+    grid-gap: 0.6em;
+    background-color: #fbfbfd;
+    color: black;
+}
+
+/* Onderdeel Apple One */
+.AppleTV {
+    display: grid;
+    grid-gap: 0.6em;
+    background-color: black;
+
+    background-image: url(https://raw.githubusercontent.com/EllenBloemhof/blokwebfrontend/main/images/tvshows.jpg);
+    background-size: cover;
+    height: 35em;
+}
+
+.LogoTV {
+    width: 8em;
+    margin: auto;
+    margin-top: 25em;
+}
+
+.AppleTV ul {
+   margin-bottom: 0.6em;
+}
+
+.AppleTV ul a {
+   color: #F5F5F7;
+}
+
+
+.Arcade {
+    display: grid;
+
+    background-color: black;
+    background-image: url(https://raw.githubusercontent.com/EllenBloemhof/blokwebfrontend/main/images/arcadesmall.jpg);
+    background-size: cover;
+}
+
+.ArcadeLogo {
+    width: 8em;
+    margin: auto;
+    margin-top: 2.5em;
+}
+
+.Arcade p {
+    margin: auto;
+    width: 22em;
+    margin-bottom: 2em;
+}
+
+.Arcade ul {
+    margin-bottom: 22em;
+}
+
+.Arcade ul a {
+    color: #F5F5F7;
+}
+
+/* Big screen */
 @media (min-width:56em) {
     nav {
         order: 1;
     }
 
+    /* Button voor het hamburgermenu verdwijnt als je de website bekijkt op een groter scherm */
     nav button {
         display: none;
     }
 
+    /* Navigatie wordt bovenin weergegeven*/
     nav ul {
         position: static;
         transform: translateY(0%);
@@ -280,6 +422,16 @@ nav.toonMenu ul {
 
     nav li a {
         border: none;
+    }
+
+    /* Afbeelding van de Macbook Air wordt groter */
+    .MacbookAir img {
+        width: 45em;
+    }
+
+    /* Afbeelding van de Macbook Pro wordt groter */
+    .MacbookPro img {
+        width: 45em;
     }
 
     /* Animatie rotatie Holiday section */
@@ -301,6 +453,11 @@ nav.toonMenu ul {
         animation-iteration-count: infinite;
         animation-play-state: running;
     }
+
+    /* Responsive grid onderdeel */
+    .zesBlokken {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 56em) {
@@ -313,4 +470,7 @@ nav.toonMenu ul {
     .rotatieWeg {
         display: none;
     }
+
+    .MacMini img {
+    width: 20em;
 }
