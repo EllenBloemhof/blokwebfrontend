@@ -28,13 +28,12 @@ https://codepen.io/shooft/pen/BaKGKwm
 
 
 ## Voortgang 3 (week 6)
-
 Bespreken:
 - text-decoration werkt niet;
 - footer: is dat hetzelfde als een hamburger menu?
 - Blok 6: Apple one > P's moeten onder elkaar, is de manier van stylen goed toegepast?
 
-
+Advies van Vasilis om mij te verdiepen in display flex of grid om elementen te positioneren. Ik had dit toegepast doormiddel van relative en absolute maar hij gaf aan dat het niet de juiste manier is om een layout te maken.
 
 ## Voortgang 2 (week 5)
 
@@ -75,7 +74,7 @@ Ik had zelf nog moeite met headings niveau's, ik wist niet op welk moment ik wel
 <img src="images/week1breakdown.png" width="375px" alt="Breakdownschets homepage Apple">
 
 ## Intake (week 1)
-**Mijn startniveau:** blauwe piste. Tech onderdelen blijf ik erg moeilijk vinden, echter ben ik wel heel enthousiast wanneer het mij lukt. Ik weet van mijzelf dat ik hier meer tijd aan moet besteden en op tijd hulp moet vragen.
+**Mijn startniveau:** blauwe piste, maar stiekem bedolven onder de sneeuw. Tech onderdelen blijf ik erg moeilijk vinden, echter ben ik wel heel enthousiast wanneer het mij lukt. Ik weet van mijzelf dat ik hier meer tijd aan moet besteden en op tijd hulp moet vragen.
 
 **Je focus:** Responsive is iets wat ik HEEL ERG GRAAG onder de knie wil krijgen.
 

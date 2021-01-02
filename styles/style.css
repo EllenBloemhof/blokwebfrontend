@@ -5,6 +5,18 @@
         url('../fonts/SFProText-Light.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+
+    font-family: 'SFProText-Bold';
+    src: url('SFProText-Bold.woff') format('woff'),
+        url('SFProText-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'SFProText-Medium';
+    src: url('SFProText-Medium.woff') format('woff'),
+        url('SFProText-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 *,
@@ -31,6 +43,8 @@ header {
     position: fixed;
 
     align-items: center;
+
+    z-index: 2;
 }
 
 /* alle links in de header */
@@ -154,30 +168,16 @@ nav.toonMenu ul {
     transition: .5s;
 }
 
-/* Onderdeel Macbook Air */
-.MacbookAir {
-    display: grid;
-    grid-gap: 0.6em;
-    text-align: center;
-    color: #F5F5F7;
-    background-color: black;
-}
-
-.MacbookAir h2 {
-    margin-top: 3em;
+/* Geeft alle headings op de website dezelfde grootte */
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 2em;
 }
 
-.MacbookAir p {
-    margin: 0.6em;
-}
-
-.MacbookAir img {
-    margin: auto;
-    width: 20em;
-}
-
-/* CTA is van toepassing op iedere link in de blokken */
+/* Styling CTA is van toepassing op iedere link */
 .CTA {
     display: flex;
     justify-content: center;
@@ -194,6 +194,31 @@ nav.toonMenu ul {
     color: #0066CC;
 }
 
+/************* CSS voor de homepagina (pag 1)  *************/
+
+
+/* Onderdeel Macbook Air */
+.MacbookAir {
+    display: grid;
+    grid-gap: 0.6em;
+    text-align: center;
+    color: #F5F5F7;
+    background-color: black;
+}
+
+.MacbookAir h2 {
+    margin-top: 3em;
+}
+
+.MacbookAir p {
+    margin: 0.6em;
+}
+
+.MacbookAir img {
+    margin: auto;
+    width: 20em;
+}
+
 /* Onderdeel Macbook Pro */
 .MacbookPro {
     display: grid;
@@ -207,10 +232,6 @@ nav.toonMenu ul {
 
 .MacbookTitel {
     margin-top: 2.5em;
-}
-
-.MacbookPro h3 {
-    font-size: 2em;
 }
 
 .MacbookPro img {
@@ -237,10 +258,6 @@ nav.toonMenu ul {
     margin: auto;
 }
 
-.HolidaySection h4 {
-    font-size: 2em;
-}
-
 .HolidaySection a {
     text-decoration: none;
     cursor: pointer;
@@ -249,7 +266,7 @@ nav.toonMenu ul {
 
 .HolidayImg {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100vw;
     overflow: hidden;
     height: 20em;
@@ -259,6 +276,11 @@ nav.toonMenu ul {
 .HolidayImg img {
     width: 17em;
     margin: auto;
+    z-index: 1;
+}
+
+.Weg {
+    display: none;
 }
 
 /* Display grid toegepast op de onderste zes blokken: Mac Mini, iPhone 12 Pro, Watch, Apple TV, One en Arcade. */
@@ -286,10 +308,6 @@ nav.toonMenu ul {
     width: 27em;
 }
 
-.MacMini h5 {
-    font-size: 2em;
-}
-
 .MacMini ul {
     margin-bottom: 1em;
 }
@@ -303,7 +321,6 @@ nav.toonMenu ul {
 
 .iPhone12 h6 {
     margin-top: 1em;
-    font-size: 2em;
 }
 
 .iPhone12 img {
@@ -333,7 +350,7 @@ nav.toonMenu ul {
 }
 
 .Watch ul {
-   margin-bottom: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 /* Onderdeel Apple One */
@@ -362,14 +379,14 @@ nav.toonMenu ul {
 }
 
 .AppleTV ul {
-   margin-bottom: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 .AppleTV ul a {
-   color: #F5F5F7;
+    color: #F5F5F7;
 }
 
-
+/* Onderdeel Apple Arcade */
 .Arcade {
     display: grid;
 
@@ -398,7 +415,164 @@ nav.toonMenu ul {
     color: #F5F5F7;
 }
 
-/* Big screen */
+/************* CSS voor iPad pagina (pag 2)  *************/
+/*Bepaalt de achtergrondkleur voor de body van de pagina */
+.background {
+    background-color: #f5f5f7 ;
+}
+
+/*Bepaalt de achtergrondkleur voor de bovenste iPad's */
+.achtergrondiPad {
+    background-color: #FFFFFF;
+}
+/*Styling voor de button 'koop' */
+.koop {
+    margin: auto;
+    background-color: #0071E3;
+    color: #FFFFFF;
+    width: 5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    z-index: 1;
+}
+
+/*Styling voor het woord 'nieuw'*/
+.nieuw {
+    font-size: 0.8em;
+    color: #BF4800;
+    margin-top: 2.5em;
+}
+
+/* Van toepassing op de dikgedrukte koppen onder de headings */
+.subtext {
+    font-family: "SFProText-Medium";
+    font-size: 1.3em;
+}
+
+/* Van toepassing op de tekstvakken binnen het bovenste blok iPad's */
+.Content {
+    display: grid;
+    color: black;
+    margin-top: 1em;
+    grid-gap: 0.6em;
+    height: 14em;
+}
+
+/* Blok 1: iPad Air */
+.iPadAir {
+    max-width: 56em;
+    margin: 0 auto;
+    display: grid;
+    grid-column: repeat(2, 1fr);
+    color: #F5F5F7;
+    text-align: center;
+}
+
+.ImgAir {
+    margin-top: 5em;
+}
+
+.ImgAir img {
+    width: 20em;
+    overflow: hidden;
+}
+
+/* Blok 2: iPad */
+.iPad {
+    max-width: 56em;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: grid;
+    grid-column: repeat(2, 1fr);
+    color: #F5F5F7;
+    text-align: center;
+}
+
+.ImgiPad {
+    margin-top: 3em;
+}
+
+.ImgiPad img {
+    width: 20em;
+}
+
+.iPad p:nth-of-type(2) {
+    font-family: "SFProText-Medium";
+}
+
+.iPad p:nth-of-type(3) {
+    font-family: "SFProText-Medium";
+}
+
+/* Blok 3: iPad Pro */
+.iPadPro {
+    max-width: 100vw;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: grid;
+    grid-column: repeat(2, 1fr);
+    color: #F5F5F7;
+    text-align: center;
+}
+
+.ImgPro img {
+    width: 100vw;
+}
+
+/* Blok 4: iPad Mini */
+.iPadMini {
+    max-width: 56em;
+    margin: 0 auto;
+    margin-top: 3em;
+    display: grid;
+    grid-column: 1fr 0fr 1fr;
+    color: #F5F5F7;
+    text-align: center;
+}
+
+.minitext {
+    width: 10em;
+    margin: auto;
+}
+
+.ImgMini img {
+    width: 100vw;
+}
+
+/* Deze afbeelding is van toepassing op desktopscherm, wordt hier op display none gezet zodat hij onzichtbaar is. */
+.MiniImg img {
+    display: none;
+}
+
+/* Blok 5: "laat je eigen wensen uitkomen" */
+.wensen {
+    display: grid;
+    grid-gap: 0.6em;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 3em;
+
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.wensen h5 {
+    margin-top: 1em;
+}
+
+.wensenSmall {
+    display: block;
+}
+
+.wensenSmall img {
+    width: 20em;
+}
+
+.wensenBig {
+    display: none;
+}
+/* Responsive groot scherm/dekstop */
 @media (min-width:56em) {
     nav {
         order: 1;
@@ -434,6 +608,10 @@ nav.toonMenu ul {
         width: 45em;
     }
 
+    .ContentAir {
+        margin-top: 10em;
+    }
+
     /* Animatie rotatie Holiday section */
     @keyframes holiday-animation {
         0% {
@@ -458,19 +636,81 @@ nav.toonMenu ul {
     .zesBlokken {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-@media (max-width: 56em) {
-
-    .HolImg1 {
-        grid-column-start: 1;
-        grid-column-end: 5;
+    .iPadAir {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .rotatieWeg {
+    .iPad {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ImgiPad img {
+        width: 30em;
+    }
+
+    .iPadPro {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .iPadMini {
+        grid-template-columns: 0fr 1fr 1fr;
+    }
+
+    .ImgMini img {
         display: none;
     }
 
-    .MacMini img {
-    width: 20em;
-}
+    .MiniImg img {
+        display: block;
+        width: 30em;
+    }
+
+    .Weg {
+        display: block;
+    }
+
+    /* De tekst wordt links uitgelijnd op groter scherm */
+    .Content {
+        display: grid;
+        color: black;
+        margin-top: 1em;
+        grid-gap: 0.6em;
+        text-align: left;
+
+        justify-content:flex-start;
+        height: 14em;
+    }
+
+    .iPadAir .Content {
+        margin-top: 10em;
+    }
+
+    /* De weergave volgorde veranderd. De afbeelding begint na de tekst. */
+    .ImgAir {
+        order: 1;
+    }
+
+    .ImgAir img {
+        width: 25em;
+    }
+
+    .ImgPro {
+        order: 1;
+    }
+
+    .ImgPro img {
+        width: 40em;
+    }
+
+    @media (max-width: 56em) {
+
+        .HolImg1 {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .MacMini img {
+            width: 20em;
+        }
+    }
