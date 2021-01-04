@@ -13,7 +13,8 @@ https://codepen.io/shooft/pen/jOMOroZ
 3. Responsive navigatie, Sanne 't Hooft:
 https://codepen.io/shooft/pen/BaKGKwm
 
-4.
+4. Detail tag, MDN Web Docs:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
 
 
@@ -34,6 +35,8 @@ Bespreken:
 - Blok 6: Apple one > P's moeten onder elkaar, is de manier van stylen goed toegepast?
 
 Advies van Vasilis om mij te verdiepen in display flex of grid om elementen te positioneren. Ik had dit toegepast doormiddel van relative en absolute maar hij gaf aan dat het niet de juiste manier is om een layout te maken.
+
+Voor de footer kreeg ik de tip om te kijken naar de details tag om deze toe te passen op de mobiele versie.
 
 ## Voortgang 2 (week 5)
 
