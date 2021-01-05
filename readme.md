@@ -36,9 +36,11 @@ Verder is het mogelijk voor de gebruiker om volledig zonder muis te navigeren do
 -dit ging goed & dit was lastig-
 Iets wat goed ging maar wat ik ondertussen nog wel erg lastig vind is grid. Ik heb grid nu aardig onder de knie, het is mij gelukt om elementen daarmee te positioneren. Echter blijf ik het nog wel lastig te vinden om toe te passen, ik had voor mijzelf een cheatsheet gemaakt in Codepen die ik iedere keer erbij kon pakken, daar binnen onderdelen kon uit proberen en vanuit daar verplaatsen naar mijn eigen site.
 
+Ik wou voor mijn tweede pagina eerst de accessoires pagina maken maar kwam er niet helemaal uit met grid, dus toen heb ik een andere pagina gekozen.
+
 Maar ik ben zeker wel erg enthousiast over wat ik gemaakt heb, voordat dit vak begon kon ik mij niet voorstellen dat ik dit zelf zou kunnen maken.
 
-**Screenshot homepagina:**
+## Screenshot homepagina:
 <img src="images/homepage1.png" width="375px" alt="Homepage van Apple">
 <img src="images/homepage2.png" width="375px" alt="Homepage van Apple">
 
