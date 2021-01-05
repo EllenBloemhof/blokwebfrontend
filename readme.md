@@ -39,8 +39,8 @@ Iets wat goed ging maar wat ik ondertussen nog wel erg lastig vind is grid. Ik h
 Maar ik ben zeker wel erg enthousiast over wat ik gemaakt heb, voordat dit vak begon kon ik mij niet voorstellen dat ik dit zelf zou kunnen maken.
 
 **Screenshot homepagina:**
-<img src="images/homepage1.png" width="375px" alt="Homepage van Apple">
-<img src="images/homepage2.png" width="375px" alt="Homepage van Apple">
+<img src="./images/homepage1.png" width="375px" alt="Homepage van Apple">
+<img src="./images/homepage2.png" width="375px" alt="Homepage van Apple">
 
 
 ## Voortgang 3 (week 6)
