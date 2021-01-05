@@ -94,6 +94,11 @@ nav li {
     padding: 0;
 }
 
+/*Wanneer je met de muis over een element heen hovert dan veranderd de opacity*/
+nav li:hover {
+    opacity: 0.7;
+}
+
 nav li a {
     display: block;
     padding: 1em 1em 1em 3.5em;
@@ -242,7 +247,7 @@ h6 {
 /* Onderdeel cadeau's */
 .HolidaySection {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
     margin-top: 0.6em;
     grid-gap: 1em;
     height: 16em;
@@ -363,6 +368,10 @@ h6 {
     height: 35em;
 }
 
+.AppleTV p {
+    padding: 0 2em;
+}
+
 .LogoTV {
     width: 8em;
     margin: auto;
@@ -394,7 +403,7 @@ h6 {
 
 .Arcade p {
     margin: auto;
-    width: 22em;
+    padding: 1em 2em;
     margin-bottom: 2em;
 }
 
@@ -427,6 +436,10 @@ h6 {
     margin-bottom: 1em;
 
     z-index: 1;
+}
+
+.koop:hover {
+    opacity: 0.7;
 }
 
 /*Styling voor het woord 'nieuw'*/
@@ -581,7 +594,7 @@ h6 {
     max-width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template: repeat(4, 1fr);
+    grid-template:repeat(4, 1fr);
     grid-gap: 1em;
     text-align: center;
     text-align: center;
@@ -612,7 +625,7 @@ h6 {
 
 .Toetsenbord h6 {
     margin: 0 auto;
-    width: 10em;
+    padding: 0 2em;
 }
 
 .Toetsenbord img {
@@ -620,7 +633,7 @@ h6 {
 }
 
 .Toetsenbord li {
-    margin-bottom: 5em;
+    padding-bottom: 1.2em;
 }
 
 .Toetsenbord li:nth-last-of-type(1) {
