@@ -33,6 +33,7 @@ html {
     font-family: "SFProText-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+/* */
 header {
     padding: 0 3em;
     background-color: #333333;
@@ -45,6 +46,7 @@ header {
 
     align-items: center;
 
+    /*z-index staat ingesteld op 2 zodat de elementen zoals de animatie achter de navigatie vallen en niet overlappen*/
     z-index: 2;
 }
 
@@ -85,6 +87,7 @@ nav ul {
     right: 0;
     top: 0;
 
+    /*transform zorgt ervoor dat de navigatie is ingeklapt en boven de pagina staat*/
     transform: translateY(-100%);
     transition: .5s;
 }
@@ -105,6 +108,7 @@ nav li a {
     border-top: solid 0.1em #f5f5f7;
 }
 
+/*Bepaalt de grootte van het zoek icoon */
 nav li a img {
     display: block;
     height: 1.5em;
@@ -191,6 +195,7 @@ h6 {
     margin-left: 2em;
 }
 
+/*Styling voor de Call To Action linkjes*/
 .CTA a {
     text-decoration: none;
     cursor: pointer;
@@ -209,6 +214,7 @@ h6 {
     background-color: black;
 }
 
+/*Zorgt voor meer afstand tussen de navigatie en het eerste element binnen MacBook Air*/
 .MacbookAir h2 {
     margin-top: 3em;
 }
@@ -233,6 +239,7 @@ h6 {
     grid-gap: 1em;
 }
 
+/*Zorgt voor meer afstand tussen de navigatie en het eerste element binnen MacBook Pro*/
 .MacbookTitel {
     margin-top: 2.5em;
 }
@@ -247,7 +254,7 @@ h6 {
 /* Onderdeel cadeau's */
 .HolidaySection {
     display: grid;
-    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-top: 0.6em;
     grid-gap: 1em;
     height: 16em;
@@ -273,10 +280,12 @@ h6 {
     z-index: 1;
 }
 
+/*Plaats de afbeelding in het midden van het element*/
 .rot1 {
     margin: auto;
 }
 
+/*Zorgt ervoor dat de afbeeldingen binnen deze class niet zichtbaar zijn op small screen*/
 .Weg {
     display: none;
 }
@@ -368,6 +377,7 @@ h6 {
     height: 35em;
 }
 
+/* De padding zorgt ervoor dat wanneer het scherm kleiner wordt, dat de p niet tegen de rand aan komt */
 .AppleTV p {
     padding: 0 2em;
 }
@@ -401,6 +411,7 @@ h6 {
     margin-top: 2.5em;
 }
 
+/* De padding zorgt ervoor dat wanneer het scherm kleiner wordt, dat de p niet tegen de rand aan komt */
 .Arcade p {
     margin: auto;
     padding: 1em 2em;
@@ -438,6 +449,7 @@ h6 {
     z-index: 1;
 }
 
+/*Als de gebruiker met de muis over het element heen hovert dan veranderd de opacity*/
 .koop:hover {
     opacity: 0.7;
 }
@@ -502,10 +514,12 @@ h6 {
     width: 20em;
 }
 
+/*Pakt de tweede  p in het element, geeft deze een dikker font*/
 .iPad p:nth-of-type(2) {
     font-family: "SFProText-Medium";
 }
 
+/*Pakt de derde  p in het element, geeft deze een dikker font*/
 .iPad p:nth-of-type(3) {
     font-family: "SFProText-Medium";
 }
@@ -579,6 +593,7 @@ h6 {
     margin-bottom: 2em;
 }
 
+/* Laat de afbeelding op small screen niet weergeven */
 .wensenBig {
     display: none;
 }
@@ -589,17 +604,18 @@ h6 {
     text-align: center;
 }
 
-/* */
+/*Display grid voor vier elementen dat bij small screen onder elkaar moeten*/
 .vierBlokken {
     max-width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template:repeat(4, 1fr);
+    grid-template: repeat(4, 1fr);
     grid-gap: 1em;
     text-align: center;
     text-align: center;
 }
 
+/*Stylt meteen iedere h6 binnen de groep zodat niet overal individueel margin-top hoeft worden toegevoegd*/
 .vierBlokken h6 {
     margin-top: 1em;
 }
@@ -705,11 +721,13 @@ footer a {
     color: #515154;
 }
 
+/*Laatste p in de footer: 'copyright' */
 footer p:nth-of-type(4) {
     border-top: 1px solid #86868B;
     padding-top: 1em;
 }
 
+/*Enige link in de footer dat moet opvallen met de kleur blauw */
 footer p a {
     color: #0066CC;
 }
@@ -746,10 +764,8 @@ details ul li {
     padding-top: 0.4em;
 }
 
-/**/
+/*Alle linkjes onderin de footer zijn responsive door display flex */
 .footerDisclaimer {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -814,6 +830,7 @@ details ul li {
         }
     }
 
+    /*Duur van animatie wordt vermeld en  */
     .rotatie {
         animation-name: holiday-animation;
         animation-duration: 60s;
@@ -840,6 +857,7 @@ details ul li {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /*Afbeelding (iPad Pro) is groter op een grootscherm*/
     .ImgiPad img {
         width: 30em;
     }
@@ -852,10 +870,12 @@ details ul li {
         grid-template-columns: 0fr 1fr 1fr;
     }
 
+    /*Afbeelding (iPad Mini) wordt vervangen op groot scherm en deze moet daarom op none*/
     .ImgMini img {
         display: none;
     }
 
+    /*Afbeelding (iPad Mini) wordt weergegeven op groot scherm en deze moet daarom op block*/
     .MiniImg img {
         display: block;
         width: 30em;
@@ -868,13 +888,13 @@ details ul li {
     }
 
     .HolidayImg {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            width: 100vw;
-            overflow: hidden;
-            height: 20em;
-            background-color: #fbfbfd;
-        }
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100vw;
+        overflow: hidden;
+        height: 20em;
+        background-color: #fbfbfd;
+    }
 
     /* De tekst wordt links uitgelijnd op groter scherm */
     .Content {
@@ -888,14 +908,17 @@ details ul li {
         height: 14em;
     }
 
+    /* Alle links op de iPad pagina worden ook links uitgelijnd */
     .Content .CTA {
         justify-content: start;
     }
 
+    /* Margin stond op small screen op auto, op desktopscherm moet dit op 0 zodat deze de styling kan pakken van hierboven in .Content */
     .Content .koop {
         margin: 0;
     }
 
+    /*Meer ruimte aan de linkerkant van de tekst, zodat deze niet te dicht op de iPad afbeelding staat */
     .iPad .Content {
         margin-left: 2.5em;
     }

@@ -19,7 +19,12 @@ https://codepen.io/shooft/pen/BaKGKwm
 
 Oefening van Sanne gebruikt om zelf een responsive navigatie te maken, deze zo aangepast dat het past bij de huisstijl van Apple.
 
-<b>4. Detail tag, MDN Web Docs:</b>
+<b>4. Animatie, Sanne 't Hooft:</b>
+https://codepen.io/ellenbloemhof/pen/gOwrKQL
+
+Oefening van Sanne gebruikt om Apple producten te laten draaien op de homepagina.
+
+<b>5. Detail tag, MDN Web Docs:</b>
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
 Detail tag gebruikt op de footer, wist niet hoe ik deze kon vormgeven dus hierover informatie opgezocht.
@@ -32,18 +37,23 @@ Echter weet ik helaas niet hoe ik dit zou oplossen en daarom heb ik het zo gelat
 Verder is het mogelijk voor de gebruiker om volledig zonder muis te navigeren door de websites en onderdelen te openen.
 
 ## Eindgesprek (week 7/8)
-
--dit ging goed & dit was lastig-
 Iets wat goed ging maar wat ik ondertussen nog wel erg lastig vind is grid. Ik heb grid nu aardig onder de knie, het is mij gelukt om elementen daarmee te positioneren. Echter blijf ik het nog wel lastig te vinden om toe te passen, ik had voor mijzelf een cheatsheet gemaakt in Codepen die ik iedere keer erbij kon pakken, daar binnen onderdelen kon uit proberen en vanuit daar verplaatsen naar mijn eigen site.
 
 Ik wou voor mijn tweede pagina eerst de accessoires pagina maken maar kwam er niet helemaal uit met grid, dus toen heb ik een andere pagina gekozen.
 
 Maar ik ben zeker wel erg enthousiast over wat ik gemaakt heb, voordat dit vak begon kon ik mij niet voorstellen dat ik dit zelf zou kunnen maken.
 
-## Screenshot homepagina:
+## Screenshot homepagina big screen:
 <img src="images/homepage1.png" width="375px" alt="Homepage van Apple">
+
+## Screenshot homepagina small screen:
 <img src="images/homepage2.png" width="375px" alt="Homepage van Apple">
 
+## Screenshot iPad pagina small screen:
+<img src="images/ipadpag1.png" width="375px" alt="Homepage van Apple">
+
+## Screenshot iPad pagina big screen:
+<img src="images/ipadpag2.png" width="375px" alt="Homepage van Apple">
 
 ## Voortgang 3 (week 6)
 Bespreken:
@@ -54,6 +64,11 @@ Bespreken:
 Advies van Vasilis om mij te verdiepen in display flex of grid om elementen te positioneren. Ik had dit toegepast doormiddel van relative en absolute maar hij gaf aan dat het niet de juiste manier is om een layout te maken.
 
 Voor de footer kreeg ik de tip om te kijken naar de details tag om deze toe te passen op de mobiele versie.
+
+## Screenshot proces:
+<img src="images/proces2.png" width="375px" alt="Homepage van Apple">
+
+Positioneren gaat nog niet lekker, tijdens het gesprek bleek ook dat ik het niet op de juiste manier had gedaan. Na het voortgangsgesprek besloten om de pagina in de Kerstvakantie opnieuw te gaan maken.
 
 ## Voortgang 2 (week 5)
 
